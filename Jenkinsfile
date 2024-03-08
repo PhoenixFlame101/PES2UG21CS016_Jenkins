@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
           steps {
             build 'PES2UG21CS016-1'
-            sh 'g++ main.cpp -o hello_world'
+            sh 'g main.cpp -o hello_world'
           }
           }
           stage('Test') {
